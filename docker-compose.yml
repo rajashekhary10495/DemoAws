@@ -1,0 +1,7 @@
+version: '2'
+services:
+   app:
+    build: .
+    image: demoaws:0.1
+    ports:
+      - "8585:8585"
